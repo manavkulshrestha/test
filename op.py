@@ -12,4 +12,5 @@ def factorial(a):
 		return 1
 	return multiply(a, factorial(a-1))
 
-# fsahoaifja
+def divide(a, b):
+	return a/b
