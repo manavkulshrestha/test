@@ -6,3 +6,8 @@ def subtract(a, b):
 
 def multiple(a, b):
 	return a*b
+
+def factorial(a):
+	if a == 0:
+		return 1
+	return a*factorial(a-1)
