@@ -8,7 +8,8 @@ def multiple(a, b):
 	return a*b
 
 def factorial(a):
-	ret = a
-	for i in range(1, a):
-		ret *= i
-	return ret
+	if a == 0:
+		return 1
+	return multiply(a, factorial(a-1))
+
+# fsahoaifja
